@@ -1,0 +1,18 @@
+
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/AI-TOD # dataset root dir
+train: train
+val: test
+test: test
+
+
+
+
+# Classes
+nc: 8  # number of classes
+names: ['airplane','bridge','storage-tank','ship','swimming-pool','vehicle','person','wind-mill']  # class names
+
+
+
